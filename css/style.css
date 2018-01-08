@@ -27,21 +27,21 @@ Tags: app landing, morki, template, bootstrap
 	2.13 - Download App /.download-app
 	2.14 - Change Log /.change-log
 	2.15 - FAQs /.faqs
-	2.16 - Video /.video-featured 
+	2.16 - Video /.video-featured
 	2.17 - Blog /.blog
 	2.18 - Clients Logo /.clients-logo
 	2.19 - Contact /.contact
 	2.20 - Footer
-	
+
 3.  Index 02
 	3.1 - Intro /.intro-style2
 	3.2 - Services /.service-style2
 	3.3 - About App /.about-app2
 	3.4 - Price Table /.Price-table2
-	
+
 4.  Index 03
 	4.1 - Intro /.intro-style3
-	
+
 5.	Page Header
 6.	Blog Page
 7.	Blog details
@@ -56,7 +56,7 @@ Tags: app landing, morki, template, bootstrap
 ------------------------------------------------------------------- */
 
 /* ==========================
-	General Styles 
+	General Styles
 =========================== */
 html {
     color: #222;
@@ -64,12 +64,12 @@ html {
     line-height: 1.4;
 }
 ::-moz-selection {
-    background: #ef494d;
+    background: #F16767;
     text-shadow: none;
 	color: #fff;
 }
 ::selection {
-    background: #ef494d;
+    background: #F16767;
     text-shadow: none;
 	color: #fff;
 }
@@ -155,7 +155,7 @@ figure {
   top: 1.7em;
   left: 1.7em;
   background-color: transparent;
-  border-left: .25em solid #ef494d;
+  border-left: .25em solid #F16767;
   -ms-transform: rotate(45deg);
       transform: rotate(45deg);
 }
@@ -174,7 +174,7 @@ figure {
   width: 1em;
   height: 1em;
   background-color: transparent;
-  border: .25em solid #ef494d;
+  border: .25em solid #F16767;
   border-radius: 15%;
   -ms-transform: translate(0, -1em) rotate(-45deg);
       transform: translate(0, -1em) rotate(-45deg);
@@ -330,10 +330,10 @@ header .is-sticky nav.navbar {
     transition: 0.3s ease;
 }
 header .is-sticky nav.navbar .navbar-morki ul.nav li a:hover {
-    color: #ef494d;
+    color: #F16767;
 }
 header .is-sticky nav.navbar .navbar-morki ul.nav li.nav-download-btn a {
-    background: #ef494d;
+    background: #F16767;
     color: #fff;
 }
 header .is-sticky nav.navbar .navbar-morki ul.nav li.nav-download-btn a:hover {
@@ -341,7 +341,7 @@ header .is-sticky nav.navbar .navbar-morki ul.nav li.nav-download-btn a:hover {
     color: #333;
 }
 header .is-sticky nav.navbar .navbar-morki ul.nav li.active a {
-    color: #ef494d;
+    color: #F16767;
 }
 header .is-sticky nav.navbar .navbar-morki ul.nav li.active.nav-download-btn a {
     color: #333;
@@ -471,7 +471,7 @@ header .is-sticky nav.navbar .navbar-morki ul.nav li.active ul li a {
 }
 .intro .intro-info .intro-info-content ul li:first-child a {
     background: #fff;
-    color: #ef494d;
+    color: #F16767;
 }
 .intro .intro-info .intro-info-content ul li:first-child a:hover {
     background: #333;
@@ -550,7 +550,7 @@ header .is-sticky nav.navbar .navbar-morki ul.nav li.active ul li a {
 .services .service-box .icon {
     display: inline-block;
     text-align: center;
-    border: 2px solid #ef494d;
+    border: 2px solid #F16767;
     transition: 0.3s ease;
     width: 50px;
     height: 50px;
@@ -571,7 +571,7 @@ header .is-sticky nav.navbar .navbar-morki ul.nav li.active ul li a {
 }
 .services .service-box .icon:after {
     width: 0;
-    background: #ef494d;
+    background: #F16767;
 }
 .services .service-box a {
     font-weight: 700;
@@ -579,15 +579,15 @@ header .is-sticky nav.navbar .navbar-morki ul.nav li.active ul li a {
     color: inherit;
 }
 .services .service-box:hover .icon {
-    border-color: #ef494d;
-    background: #ef494d;
+    border-color: #F16767;
+    background: #F16767;
     color: #fff;
 }
 .services .service-box:hover .icon:after {
     width: 150px;
 }
 .services .service-box:hover a {
-    color: #ef494d;
+    color: #F16767;
 }
 
 
@@ -606,7 +606,7 @@ header .is-sticky nav.navbar .navbar-morki ul.nav li.active ul li a {
     content: "";
     width: 50px;
     height: 2px;
-    background: #ef494d;
+    background: #F16767;
     left: 50%;
     bottom: 0;
     margin-left: -25px;
@@ -627,7 +627,7 @@ header .is-sticky nav.navbar .navbar-morki ul.nav li.active ul li a {
     margin: 0 0 40px 0;
 }
 .about-app .app-info h2 span {
-    color: #ef494d;
+    color: #F16767;
     font-weight: 600;
 }
 .about-app .app-info ul {
@@ -649,7 +649,7 @@ header .is-sticky nav.navbar .navbar-morki ul.nav li.active ul li a {
     font-family: "FontAwesome";
     left: 0px;
     top: 0;
-    color: #ef494d;
+    color: #F16767;
 }
 
 
@@ -683,7 +683,7 @@ header .is-sticky nav.navbar .navbar-morki ul.nav li.active ul li a {
     position: relative;
     transition: 0.3s ease;
     z-index: 1;
-    color: #ef494d;
+    color: #F16767;
 }
 .app-features .features-left .feature-single .feature-icon span:before {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.13);
@@ -709,7 +709,7 @@ header .is-sticky nav.navbar .navbar-morki ul.nav li.active ul li a {
     color: #fff;
 }
 .app-features .features-left .feature-single:hover .feature-icon span:before {
-    background: #ef494d;
+    background: #F16767;
 }
 .app-features .feature-image {
     text-align: center;
@@ -741,7 +741,7 @@ header .is-sticky nav.navbar .navbar-morki ul.nav li.active ul li a {
     position: relative;
     transition: 0.3s ease;
     z-index: 1;
-    color: #ef494d;
+    color: #F16767;
 }
 .app-features .features-right .feature-single .feature-icon span:before {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.13);
@@ -767,7 +767,7 @@ header .is-sticky nav.navbar .navbar-morki ul.nav li.active ul li a {
     color: #fff;
 }
 .app-features .features-right .feature-single:hover .feature-icon span:before {
-    background: #ef494d;
+    background: #F16767;
 }
 
 
@@ -821,7 +821,7 @@ header .is-sticky nav.navbar .navbar-morki ul.nav li.active ul li a {
     height: 45px;
     padding: 0 10px;
     position: absolute;
-    color: #ef494d;
+    color: #F16767;
 }
 
 
@@ -875,7 +875,7 @@ header .is-sticky nav.navbar .navbar-morki ul.nav li.active ul li a {
     left: 50%;
     margin-left: -1.5px;
     top: 0;
-    background: #ef494d;
+    background: #F16767;
 }
 .screenshots .screenshot-gallery .screenshot-single figure figcaption a:after {
     position: absolute;
@@ -885,7 +885,7 @@ header .is-sticky nav.navbar .navbar-morki ul.nav li.active ul li a {
     top: 50%;
     margin-top: -1.5px;
     left: 0;
-    background: #ef494d;
+    background: #F16767;
 }
 .screenshots .screenshot-gallery .screenshot-single figure:hover figcaption {
     visibility: visible;
@@ -900,7 +900,7 @@ header .is-sticky nav.navbar .navbar-morki ul.nav li.active ul li a {
     margin-bottom: 30px;
 }
 .screenshots .gallery-info a {
-    background: #ef494d;
+    background: #F16767;
     color: #fff;
     display: inline-block;
     font-size: 15px;
@@ -926,14 +926,14 @@ header .is-sticky nav.navbar .navbar-morki ul.nav li.active ul li a {
     margin-right: 0;
 }
 .screenshots .owl-dots .owl-dot span {
-    border: 2px solid #ef494d;
+    border: 2px solid #F16767;
     display: block;
     height: 20px;
     width: 20px;
     position: relative;
 }
 .screenshots .owl-dots .owl-dot span:before {
-    border: 2px solid #ef494d;
+    border: 2px solid #F16767;
     content: "";
     height: 10px;
     left: 3px;
@@ -943,7 +943,7 @@ header .is-sticky nav.navbar .navbar-morki ul.nav li.active ul li a {
     transition: 0.3s ease;
 }
 .screenshots .owl-dots .owl-dot.active span:before {
-    background: #ef494d;
+    background: #F16767;
     transition: 0.3s ease;
 }
 
@@ -958,8 +958,8 @@ header .is-sticky nav.navbar .navbar-morki ul.nav li.active ul li a {
     color: #fff;
 }
 .counters .counter-box:hover div:before {
-    border-color: #ef494d;
-    background: #ef494d;
+    border-color: #F16767;
+    background: #F16767;
     -ms-transform: rotate(0deg);
         transform: rotate(0deg);
 }
@@ -971,7 +971,7 @@ header .is-sticky nav.navbar .navbar-morki ul.nav li.active ul li a {
     padding-top: 23px;
     margin-bottom: 30px;
     font-size: 25px;
-    color: #ef494d;
+    color: #F16767;
     z-index: 1;
     transition: 0.3s ease;
 }
@@ -995,7 +995,7 @@ header .is-sticky nav.navbar .navbar-morki ul.nav li.active ul li a {
     display: block;
     font-weight: 500;
     font-family: "Montserrat", sans-serif;
-    color: #ef494d;
+    color: #F16767;
 }
 .counters .counter-box h3 {
     font-weight: 300;
@@ -1027,7 +1027,7 @@ header .is-sticky nav.navbar .navbar-morki ul.nav li.active ul li a {
 }
 .price-table .price-table-wrapper .price-header span.price {
     font-size: 30px;
-    color: #ef494d;
+    color: #F16767;
     font-weight: 700;
     position: relative;
     padding-right: 10px;
@@ -1050,8 +1050,8 @@ header .is-sticky nav.navbar .navbar-morki ul.nav li.active ul li a {
     margin-top: 30px;
 }
 .price-table .price-table-wrapper .price-btn a {
-    border: 2px solid #ef494d;
-    color: #ef494d;
+    border: 2px solid #F16767;
+    color: #F16767;
     display: inline-block;
     font-size: 15px;
     font-weight: 700;
@@ -1060,7 +1060,7 @@ header .is-sticky nav.navbar .navbar-morki ul.nav li.active ul li a {
     border-radius: 3px;
 }
 .price-table .price-table-wrapper.price-table-featured:before {
-    background: #ef494d;
+    background: #F16767;
     content: "";
     height: 50px;
     right: -25px;
@@ -1072,11 +1072,11 @@ header .is-sticky nav.navbar .navbar-morki ul.nav li.active ul li a {
 }
 .price-table .price-table-wrapper.price-table-featured .price-btn a {
     color: #fff;
-    background: #ef494d;
+    background: #F16767;
 }
 .price-table .price-table-wrapper:hover .price-btn a {
     color: #fff;
-    background: #ef494d;
+    background: #F16767;
 }
 
 
@@ -1107,7 +1107,7 @@ header .is-sticky nav.navbar .navbar-morki ul.nav li.active ul li a {
     top: 0;
     width: 2px;
     height: 100%;
-    background: #ef494d;
+    background: #F16767;
 }
 .testimonial .testimonial-slider .slide-single .client-info ul li.client-name {
     padding-left: 30px;
@@ -1142,14 +1142,14 @@ header .is-sticky nav.navbar .navbar-morki ul.nav li.active ul li a {
     margin-right: 0;
 }
 .testimonial .owl-dots .owl-dot span {
-    border: 2px solid #ef494d;
+    border: 2px solid #F16767;
     display: block;
     height: 20px;
     width: 20px;
     position: relative;
 }
 .testimonial .owl-dots .owl-dot span:before {
-    border: 2px solid #ef494d;
+    border: 2px solid #F16767;
     content: "";
     height: 10px;
     left: 3px;
@@ -1159,7 +1159,7 @@ header .is-sticky nav.navbar .navbar-morki ul.nav li.active ul li a {
     transition: 0.3s ease;
 }
 .testimonial .owl-dots .owl-dot.active span:before {
-    background: #ef494d;
+    background: #F16767;
     transition: 0.3s ease;
 }
 
@@ -1238,7 +1238,7 @@ header .is-sticky nav.navbar .navbar-morki ul.nav li.active ul li a {
     transition: 0.3s ease;
 }
 .team .team-carousel .team-single figure figcaption div ul li a:hover {
-    color: #ef494d;
+    color: #F16767;
 }
 .team .team-carousel .team-single figure figcaption div ul li a:hover:before {
     background: #fff;
@@ -1255,14 +1255,14 @@ header .is-sticky nav.navbar .navbar-morki ul.nav li.active ul li a {
     margin-right: 0;
 }
 .team .owl-dots .owl-dot span {
-    border: 2px solid #ef494d;
+    border: 2px solid #F16767;
     display: block;
     height: 20px;
     width: 20px;
     position: relative;
 }
 .team .owl-dots .owl-dot span:before {
-    border: 2px solid #ef494d;
+    border: 2px solid #F16767;
     content: "";
     height: 10px;
     left: 3px;
@@ -1272,7 +1272,7 @@ header .is-sticky nav.navbar .navbar-morki ul.nav li.active ul li a {
     transition: 0.3s ease;
 }
 .team .owl-dots .owl-dot.active span:before {
-    background: #ef494d;
+    background: #F16767;
     transition: 0.3s ease;
 }
 
@@ -1338,7 +1338,7 @@ header .is-sticky nav.navbar .navbar-morki ul.nav li.active ul li a {
     left: 50%;
     margin-left: -1px;
     top: 0;
-    background: #ef494d;
+    background: #F16767;
 }
 .change-log .changelog-timeline .timeline-single {
     position: relative;
@@ -1371,7 +1371,7 @@ header .is-sticky nav.navbar .navbar-morki ul.nav li.active ul li a {
     width: 40px;
     height: 40px;
     background: #f8f8f8;
-    color: #ef494d;
+    color: #F16767;
     border-radius: 50%;
     left: 50%;
     margin-left: -20px;
@@ -1403,7 +1403,7 @@ header .is-sticky nav.navbar .navbar-morki ul.nav li.active ul li a {
     display: inline-block;
     width: 50px;
     height: 50px;
-    background: #ef494d;
+    background: #F16767;
     font-size: 18px;
     text-align: center;
     color: #fff;
@@ -1453,7 +1453,7 @@ header .is-sticky nav.navbar .navbar-morki ul.nav li.active ul li a {
     text-align: center;
     background: #fff;
     border-radius: 50%;
-    color: #ef494d;
+    color: #F16767;
     font-size: 25px;
 }
 .video-featured a.video-btn span:last-child {
@@ -1523,7 +1523,7 @@ header .is-sticky nav.navbar .navbar-morki ul.nav li.active ul li a {
 }
 .blog .blog-single:hover figure figcaption h3 a,
 .blog .blog-single:hover figure figcaption ul.post-bottom li a {
-    color: #ef494d;
+    color: #F16767;
 }
 .blog .blog-btn {
     text-align: center;
@@ -1534,7 +1534,7 @@ header .is-sticky nav.navbar .navbar-morki ul.nav li.active ul li a {
     padding: 15px 45px;
     font-weight: 700;
     text-transform: uppercase;
-    background: #ef494d;
+    background: #F16767;
     color: #fff;
     border-radius: 3px;
 }
@@ -1609,7 +1609,7 @@ header .is-sticky nav.navbar .navbar-morki ul.nav li.active ul li a {
     background: #fff;
     text-transform: uppercase;
     font-weight: 700;
-    color: #ef494d;
+    color: #F16767;
     border: 0 none;
     padding: 13px 25px;
     border-radius: 3px;
@@ -1650,7 +1650,7 @@ header .is-sticky nav.navbar .navbar-morki ul.nav li.active ul li a {
     display: block;
     width: 45px;
     height: 45px;
-    color: #ef494d;
+    color: #F16767;
     text-align: center;
     padding-top: 10px;
     font-size: 18px;
@@ -1678,7 +1678,7 @@ footer p {
     margin-bottom: 0;
 }
 footer p i {
-    color: #ef494d;
+    color: #F16767;
 }
 footer .footer-bottom-menu ul {
     text-align: right;
@@ -1695,7 +1695,7 @@ footer .footer-bottom-menu ul li a {
     color: #fff;
 }
 footer .footer-bottom-menu ul li a:hover {
-    color: #ef494d;
+    color: #F16767;
 }
 /* Back To top */
 footer p#back-top {
@@ -1719,8 +1719,8 @@ footer p#back-top a i{
 	color:#fff;
 }
 footer p#back-top a:hover {
-    background: #EF494D;
-    border-color: #EF494D;
+    background: #F16767;
+    border-color: #F16767;
 }
 
 /* ==================================================
@@ -1747,7 +1747,7 @@ footer p#back-top a:hover {
     content: "";
     right: 0;
     top: 0;
-    background: #ef494d;
+    background: #F16767;
     width: 50%;
     height: 100%;
 }
@@ -1926,7 +1926,7 @@ footer p#back-top a:hover {
     color: inherit;
 }
 .blog-wrapper .blog-content .blog-single .blog-single-contents h3 a:hover {
-    color: #ef494d;
+    color: #F16767;
 }
 .blog-wrapper .blog-content .blog-single .blog-single-contents ul {
     margin-bottom: 15px;
@@ -1938,7 +1938,7 @@ footer p#back-top a:hover {
     color: inherit;
 }
 .blog-wrapper .blog-content .blog-single .blog-single-contents ul li a:hover {
-    color: #ef494d;
+    color: #F16767;
 }
 .blog-wrapper .blog-content .blog-single .blog-single-contents ul li:last-child {
     float: right;
@@ -1969,11 +1969,11 @@ footer p#back-top a:hover {
     background: #fff;
 }
 .blog-wrapper .blog-content .blog-single:hover .blog-single-contents .rm-btn:before {
-    background: #ef494d;
+    background: #F16767;
 }
 .blog-wrapper .blog-content .blog-single:hover .blog-single-contents .rm-btn a {
-    background: #ef494d;
-    border-color: #ef494d;
+    background: #F16767;
+    border-color: #F16767;
     color: #fff;
 }
 .blog-wrapper .blog-content .blog-pagination ul {
@@ -1996,12 +1996,12 @@ footer p#back-top a:hover {
     color: inherit;
 }
 .blog-wrapper .blog-content .blog-pagination ul li a:hover {
-    border-color: #ef494d;
-    color: #ef494d;
+    border-color: #F16767;
+    color: #F16767;
 }
 .blog-wrapper .blog-content .blog-pagination ul li.active a {
-    background: #ef494d;
-    border-color: #ef494d;
+    background: #F16767;
+    border-color: #F16767;
     color: #fff;
 }
 .blog-wrapper .blog-sidebar .sidebar-widget {
@@ -2023,7 +2023,7 @@ footer p#back-top a:hover {
     height: 100%;
     left: 0;
     top: 0;
-    background: #ef494d;
+    background: #F16767;
 }
 .blog-wrapper .blog-sidebar .sidebar-widget.search-widget form {
     position: relative;
@@ -2036,14 +2036,14 @@ footer p#back-top a:hover {
     transition: 0.3s ease;
 }
 .blog-wrapper .blog-sidebar .sidebar-widget.search-widget form input:focus {
-    border-color: #ef494d;
+    border-color: #F16767;
 }
 .blog-wrapper .blog-sidebar .sidebar-widget.search-widget form button {
     width: 45px;
     height: 45px;
-    background: #ef494d;
+    background: #F16767;
     color: #fff;
-    border: 1px solid #ef494d;
+    border: 1px solid #F16767;
     position: absolute;
     right: 0;
     top: 0;
@@ -2064,7 +2064,7 @@ footer p#back-top a:hover {
     width: 10px;
     height: 1px;
     left: 0;
-    background: #ef494d;
+    background: #F16767;
     top: 20px;
 }
 .blog-wrapper .blog-sidebar .sidebar-widget.recent-post ul li a,
@@ -2073,7 +2073,7 @@ footer p#back-top a:hover {
 }
 .blog-wrapper .blog-sidebar .sidebar-widget.recent-post ul li a:hover,
 .blog-wrapper .blog-sidebar .sidebar-widget.archieve-widget ul li a:hover {
-    color: #ef494d;
+    color: #F16767;
 }
 .blog-wrapper .blog-sidebar .sidebar-widget.tags-widget ul {
     margin-bottom: 0;
@@ -2093,8 +2093,8 @@ footer p#back-top a:hover {
     color: #616161;
 }
 .blog-wrapper .blog-sidebar .sidebar-widget.tags-widget ul li a:hover {
-    color: #ef494d;
-    border-color: #ef494d;
+    color: #F16767;
+    border-color: #F16767;
 }
 
 
@@ -2124,7 +2124,7 @@ footer p#back-top a:hover {
     padding-right: 6px;
 }
 .post-details .article-meta ul li a {
-    color: #ef494d;
+    color: #F16767;
 }
 .post-details .article-content blockquote {
     background: none;
@@ -2146,7 +2146,7 @@ footer p#back-top a:hover {
     font-weight: 700;
 }
 .post-details .article-content ul.blog-post-pagination li a:hover {
-    color: #ef494d;
+    color: #F16767;
 }
 .post-details .post-comments {
     margin: 60px 0 0 0;
@@ -2174,7 +2174,7 @@ footer p#back-top a:hover {
 }
 .post-details .post-comments ul.comment-list li .comment-details h3 {
     margin: 0 0 10px 0;
-    color: #ef494d;
+    color: #F16767;
 }
 .post-details .post-comments ul.comment-list li .comment-details p {
     margin: 10px 0;
@@ -2184,7 +2184,7 @@ footer p#back-top a:hover {
     font-weight: 500;
 }
 .post-details .post-comments ul.comment-list li .comment-details a:hover {
-    color: #ef494d;
+    color: #F16767;
 }
 .post-details .post-comments ul.comment-list li ul.children {
     margin-left: 50px;
@@ -2221,8 +2221,8 @@ footer p#back-top a:hover {
     margin-bottom: 30px;
 }
 .post-details .leave-comment form .form-group button {
-    border: 2px solid #ef494d;
-    background: #ef494d;
+    border: 2px solid #F16767;
+    background: #F16767;
     color: #fff;
     text-transform: uppercase;
     font-weight: 500;
@@ -2231,7 +2231,7 @@ footer p#back-top a:hover {
 }
 .post-details .leave-comment form .form-group button:hover {
     background: none;
-    color: #ef494d;
+    color: #F16767;
 }
 
 
@@ -2314,7 +2314,7 @@ footer p#back-top a:hover {
     transition: 0.3s ease;
 }
 .team-wrapper .team-single figure figcaption div ul li a:hover {
-    color: #ef494d;
+    color: #F16767;
 }
 .team-wrapper .team-single figure figcaption div ul li a:hover:before {
     background: #fff;
@@ -2335,7 +2335,7 @@ footer p#back-top a:hover {
     color: #323232;
 }
 .contact-main .section-header h2:before {
-    background: #ef494d;
+    background: #F16767;
 }
 .contact-main .contact-wrapper form .form-group input,
 .contact-main .contact-wrapper form .form-group textarea {
@@ -2344,10 +2344,10 @@ footer p#back-top a:hover {
 }
 .contact-main .contact-wrapper form .form-group input:focus,
 .contact-main .contact-wrapper form .form-group textarea:focus {
-    border-color: #ef494d;
+    border-color: #F16767;
 }
 .contact-main .contact-wrapper form .form-group button {
-    background: #ef494d;
+    background: #F16767;
     color: #fff;
 }
 .contact-main .contact-details h3 {
@@ -2358,10 +2358,10 @@ footer p#back-top a:hover {
     color: #616161;
 }
 .contact-main .contact-details ul.contact-info-list li i {
-    color: #ef494d;
+    color: #F16767;
 }
 .contact-main .contact-details ul.contact-social li a {
-    background: #ef494d;
+    background: #F16767;
     color: #fff !important;
 }
 .contact-main #map {
@@ -2433,7 +2433,7 @@ footer p#back-top a:hover {
     height: 45px;
     padding: 0 10px;
     position: absolute;
-    color: #ef494d;
+    color: #F16767;
 }
 
 
@@ -2522,11 +2522,11 @@ footer p#back-top a:hover {
     color: #727272;
 }
 .gallery-wrapper .gallery-pagination ul li a:hover {
-    background: #ef494d;
+    background: #F16767;
     color: #fff;
 }
 .gallery-wrapper .gallery-pagination ul li.active a {
-    background: #ef494d;
+    background: #F16767;
     color: #fff;
 }
 
@@ -2574,7 +2574,7 @@ footer p#back-top a:hover {
     padding: 10px;
     margin-bottom: 10px;
     background: #fff;
-    color: #ef494d;
+    color: #F16767;
     border-radius: 3px;
     text-align: center;
     font-weight: 700;
@@ -2598,7 +2598,7 @@ footer p#back-top a:hover {
 .shop-wrapper .single-product .product-meta span {
     display: block;
     font-size: 25px;
-    color: #ef494d;
+    color: #F16767;
     text-align: center;
 }
 .shop-wrapper .single-product .product-meta h3 {
@@ -2611,7 +2611,7 @@ footer p#back-top a:hover {
     color: inherit;
 }
 .shop-wrapper .single-product .product-meta h3 a:hover {
-    color: #ef494d;
+    color: #F16767;
 }
 .shop-wrapper .shop-pagination {
     margin-top: 30px;
@@ -2634,11 +2634,11 @@ footer p#back-top a:hover {
     color: #727272;
 }
 .shop-wrapper .shop-pagination ul li a:hover {
-    background: #ef494d;
+    background: #F16767;
     color: #fff;
 }
 .shop-wrapper .shop-pagination ul li.active a {
-    background: #ef494d;
+    background: #F16767;
     color: #fff;
 }
 
@@ -2657,14 +2657,14 @@ footer p#back-top a:hover {
 }
 .product-details-container ul.product-rating li{
 	display: inline-block;
-	color: #EF494D;
+	color: #F16767;
 }
 .product-details-container .p-price{
 	margin-bottom: 50px;
 }
 .product-details-container .p-price p{
 	font-size: 30px;
-	color: #EF494D;
+	color: #F16767;
 	font-weight: 600;
 	margin-bottom: 5px;
 	margin-bottom: 15px;
@@ -2679,21 +2679,21 @@ footer p#back-top a:hover {
 .product-details-container ul.pd-btns li a{
 	display: block;
 	padding: 10px 25px;
-	border: 1px solid #EF494D;
-	color: #EF494D;
+	border: 1px solid #F16767;
+	color: #F16767;
 	margin-bottom: 15px;
 }
 .product-details-container ul.pd-btns li a:hover{
 	color: #fff;
-	background: #EF494D;
+	background: #F16767;
 }
 .product-details-container ul.pd-btns li:first-child a{
-	background: #EF494D;
+	background: #F16767;
 	color: #fff;
 }
 .product-details-container ul.pd-btns li:first-child a:hover{
 	background: none;
-	color: #EF494D;
+	color: #F16767;
 }
 .shop-wrapper .related-products{
 	margin-bottom: 50px;
