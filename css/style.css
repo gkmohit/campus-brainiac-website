@@ -1,4 +1,4 @@
-/*
+cb-assets/intro-bg.png/*
 Template Name: Morki - App Landing Template
 Version: 1.0
 Author: Shamim Ahmed
@@ -405,7 +405,7 @@ header .is-sticky nav.navbar .navbar-morki ul.nav li.active ul li a {
     min-height: 780px;
     padding: 50px 0 0 0;
     position: relative;
-    background: url(../images/intro-bg.jpg);
+    background: url(../images/cb-assets/intro-bg.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
@@ -775,7 +775,7 @@ header .is-sticky nav.navbar .navbar-morki ul.nav li.active ul li a {
 .newsletter {
     padding: 100px 0;
     text-align: center;
-    background: url(../images/intro-bg.jpg);
+    background: url(../images/cb-assets/intro-bg.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -1281,7 +1281,7 @@ header .is-sticky nav.navbar .navbar-morki ul.nav li.active ul li a {
 .download-app {
     padding: 120px 0;
     text-align: center;
-    background: url(../images/intro-bg.jpg);
+    background: url(../images/cb-assets/intro-bg.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -1792,7 +1792,7 @@ footer p#back-top a:hover {
 =================================================== */
 .pages-header {
     position: relative;
-    background: url(../images/intro-bg.jpg);
+    background: url(../images/cb-assets/intro-bg.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
